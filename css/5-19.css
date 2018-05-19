@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Î¢ÈíÑÅºÚ';
+    box-sizing: border-box;
+}
+.f1{
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 5px;
+}
+.right {
+    display: none;
+}
+.btn-top1,.btn-top2{
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+    background: white;
+    font-size: 24px;
+    text-decoration: none;
+    color: pink;
+    display: inline-block;
+}
+.btn-top1:hover,.btn-top2:hover{
+    border-bottom: 1px solid pink;
+}
+.btn-top1{
+    margin-right: 10px;
+}
+
+#box_1{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#box-r{
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+#box{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+#ipt1,#ipt2,#ipt3,{
+    height: 20px;
+    width: 300px;
+    background-color:rgba(0,0,0,0.1);
+    border: none;
+    border-radius:2px;
+}
+#btn,#btn-r{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 20px;
+    width: 340px;
+    border: none;
+    border-radius:2px;
+    background-color: pink;
+}
+.box1,.box2,.box3,#btn{
+    float: left;
+
+}
+
+
+
+#ipt1-r,#ipt2-r{
+    height: 20px;
+    width: 200px;
+    background-color:rgba(0,0,0,0.1);
+    border: none;
+    border-radius:2px;
+}
