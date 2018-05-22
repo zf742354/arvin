@@ -26,7 +26,7 @@ html,body{
 .right {
     display: none;
 }
-.ipt1{
+.ipt1,.ipt2,.ipt3{
     height: 35px;
     width: 300px;
     border: none;
